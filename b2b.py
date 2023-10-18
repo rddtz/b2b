@@ -9,7 +9,7 @@ import sys
  For convert from bases besides 10, like from base 8 to base 2:
  it will first converts to base 10 and than go to the wanted base.
  Ex: if you wanna convert 11001 from Base 2 to Base 8, the program will do:
- 	1º: 11001 from Base 2 to Base 10, resulting in 25.
+ 	1: 11001 from Base 2 to Base 10, resulting in 25.
  	2º: 25 from Base 10 to base 8, resulting in 31.
 
  					in resume:
@@ -126,7 +126,7 @@ if  __name__ == "__main__":
 	# Recive a string number (because of Hexadecimal Chars) /
 	# And 2 Ints, FromB, which is the number base and /
 	# To, the base you wanna to convert to.
-	# in the script, the Number will be converted to int for the operations im the methods.
+	# in the script, the Number will be converted to int for the operations in the methods.
 	# The return will be a int representing a execution code.
 	response = change(str(sys.argv[1]).upper(), int(sys.argv[2]), int(sys.argv[3]))
 	if response == 1:
